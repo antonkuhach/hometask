@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 BRAND NEW TEXT
+=======
+VERY NEW
+>>>>>>> 5e9b275... Modify removable3.txt
 =======
 VERY NEW
 >>>>>>> 5e9b275... Modify removable3.txt
