@@ -1,1 +1,17 @@
+<<<<<<< HEAD
 VERY NEW
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+BRAND NEW TEXT
+=======
+VERY NEW
+>>>>>>> 5e9b275... Modify removable3.txt
+=======
+VERY NEW
+>>>>>>> 5e9b275... Modify removable3.txt
+=======
+BRAND NEW TEXT
+>>>>>>> b620673119575cd28e73bfce0ac1bddee67688f7
+>>>>>>> master
