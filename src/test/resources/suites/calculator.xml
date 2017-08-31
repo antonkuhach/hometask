@@ -25,6 +25,8 @@
             <class name="com.epam.tat.module4.test.runner.LongMultCalculatorTest" />
             <class name="com.epam.tat.module4.test.runner.DoubleMultCalculatorTest" />
             <class name="com.epam.tat.module4.test.runner.DoubleDivCalculatorTest" />
+            <class name="com.epam.tat.module4.test.runner.LongDivCalculatorTest" />
+            <class name="com.epam.tat.module4.test.runner.DoublePowCalculatorTest" />
         </classes>
     </test>
 
@@ -42,6 +44,8 @@
             <class name="com.epam.tat.module4.test.runner.LongMultCalculatorTest" />
             <class name="com.epam.tat.module4.test.runner.DoubleMultCalculatorTest" />
             <class name="com.epam.tat.module4.test.runner.DoubleDivCalculatorTest" />
+            <class name="com.epam.tat.module4.test.runner.LongDivCalculatorTest" />
+            <class name="com.epam.tat.module4.test.runner.DoublePowCalculatorTest" />
         </classes>
     </test>
 </suite>
