@@ -8,29 +8,28 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 /**
- * Created by Anton_Kuhach on 8/30/2017.
+ * Created by Anton_Kuhach on 8/31/2017.
  */
-public class DoubleSumCalculatorTest {
+public class LongSumCalculatorTest {
     private Calculator calculator;
     private Object expected;
     private Object a;
     private Object b;
 
-
     @Before
     public void setup() {
         calculator = new Calculator();
-        a = -3.142E-320;
-        b = "3.143E-320";
-        expected = 1.5E-323;
+        a = 9223372036854775807L;
+        b = "1";
+        expected = -9223372036854775808L;
     }
 
     @Test
-    public void DoubleSumTest(){
-        double actual;
+    public void LongSumTest() {
+        long actual;
 
-        actual = calculator.sum(Double.parseDouble(a.toString()), Double.parseDouble(b.toString()));
-        assertEquals(Double.parseDouble(expected.toString()), actual, 0.000001);
+        actual = calculator.sum(Long.parseLong(a.toString()), Long.parseLong(b.toString()));
+        assertEquals(Long.parseLong(expected.toString()), actual, 0.000001);
     }
 
     @After
