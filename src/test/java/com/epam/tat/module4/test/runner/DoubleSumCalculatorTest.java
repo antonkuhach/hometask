@@ -3,7 +3,6 @@ package com.epam.tat.module4.test.runner;
 import com.epam.tat.module4.Calculator;
 import org.junit.After;
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -11,7 +10,7 @@ import static org.junit.Assert.assertEquals;
 /**
  * Created by Anton_Kuhach on 8/30/2017.
  */
-public class SumCalculatorTest {
+public class DoubleSumCalculatorTest {
     Calculator calculator;
 
     @Before
@@ -20,7 +19,7 @@ public class SumCalculatorTest {
     }
 
     @Test
-    public void SumTest_DoubleOverflow(){
+    public void SumTest(){
         double expected;
         double actual;
 
