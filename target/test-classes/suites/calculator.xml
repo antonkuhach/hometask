@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http:\\testng.org/testng-1.0.dtd" >
+
+<suite name ="Calculator" verbose="1" parallel="false">
+    <test name="MultTest">
+        <parameter name="a" value="80" />
+        <parameter name="b" value="-40" />
+        <parameter name="expected" value="-3200" />
+        <classes>
+            <class name="com.epam.tat.module4.test.runner.LongMultCalculatorTest"></class>
+        </classes>
+    </test>
+
+</suite>
